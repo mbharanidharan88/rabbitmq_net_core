@@ -52,7 +52,6 @@ namespace EventBus
                     HostName = _hostname,
                     UserName = _username,
                     Password = _password,
-                    // Port = 15672
                 };
 
                 _connection = factory.CreateConnection();
